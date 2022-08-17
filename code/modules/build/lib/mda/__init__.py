@@ -61,12 +61,22 @@ def qzros(first_term=float, second_term=float, third_term=float, zero=float(0)):
     st = second_term
     tht = third_term
 
-    _d_ = square(st) - 4 * ft * tht
+    _d_ = square(st) - (4 * (ft * tht))
 
-    _ro_ = math.sqrt(_d_)
+    if _d_*(-1)==math.sqrt(square(_d_)):
+
+        _ro_ = math.sqrt(_d_*(-1))
+
+    else:
+
+        _ro_ = math.sqrt(_d_)
 
     _zst_ = float((((-st) + _ro_)/2*ft)-zero)
 
     _znd_ = float((((-st) - _ro_)/2*ft)-zero)
 
     return [_zst_, _znd_]
+
+
+
+

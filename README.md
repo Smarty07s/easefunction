@@ -1,5 +1,4 @@
-# easefunction
- Makes your coding easy
+
 
 <head>
     <style>

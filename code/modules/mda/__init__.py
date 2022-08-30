@@ -55,7 +55,7 @@ def square(num=float()):
 
 def qzros(first_term=float, second_term=float, third_term=float, zero=float(0)):
     """Returns zeros of the quadratic polynomial 
-        Warning! : Not works properly"""
+        Warning! : Not works properly
 
     ft = first_term
     st = second_term
@@ -75,7 +75,7 @@ def qzros(first_term=float, second_term=float, third_term=float, zero=float(0)):
 
     _znd_ = float((((-st) - _ro_)/2*ft)-zero)
 
-    return [_zst_, _znd_]
+    return [_zst_, _znd_]"""
 
 
 
